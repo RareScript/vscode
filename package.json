@@ -2,7 +2,9 @@
   "name": "rarescript",
   "displayName": "RareScript",
   "description": "VSCode IDE integration for RareScript programming language.",
+  "publisher": "topcatto",
   "version": "0.0.1",
+  "icon": "rarescript.ico",
   "engines": {
     "vscode": "^1.109.0"
   },
