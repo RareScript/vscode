@@ -1,0 +1,25 @@
+{
+  "name": "rarescript",
+  "displayName": "RareScript",
+  "description": "VSCode IDE integration for RareScript programming language.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.109.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "rarescript",
+      "aliases": ["RareScript", "rarescript"],
+      "extensions": [".rare"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "rarescript",
+      "scopeName": "source.rare",
+      "path": "./syntaxes/rarescript.tmLanguage.json"
+    }]
+  }
+}
